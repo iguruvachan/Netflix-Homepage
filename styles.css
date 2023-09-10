@@ -1,0 +1,128 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial Black, sans-serif;
+    background-image: url('background.jpg');
+    background-size: 100%;
+}
+
+.logo {
+    background-image: linear-gradient(to bottom, #000000, transparent);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Logo styles */
+.logo img {
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 2px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+
+.language-dropdown select {
+    margin-right: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 120px; 
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.rounded-button-sign {
+    margin-right: 100px;
+    border-radius: 3px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold; 
+    padding: 6px 10px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+}
+/* Hero section styles */
+.hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.email-input {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.email-input input[type="email"] {
+    color: #fff;
+    padding: 15px;
+    border: 1px solid #353535;
+    border-radius: 3px;
+    margin-right: 10px;
+    width: 300px; 
+    background-color: #00000092; 
+}
+
+.rounded-button {
+    border-radius: 3px; 
+    padding: 13px 25px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
